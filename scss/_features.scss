@@ -1,0 +1,41 @@
+// Styling for the features section
+section.features {
+    color: #fff;
+    .section-heading {
+        margin-bottom: 40px;
+        h2 {
+            margin-top: 0;
+            color: #fff;
+        }
+        p {
+            margin-bottom: 0;
+        }
+    }
+    .device-container,
+    .feature-item {
+        max-width: 325px;
+        margin: 0 auto;
+    }
+    .device-container {
+        margin-bottom: 100px;
+        @media (min-width: 992px) {
+            margin-bottom: 0;
+        }
+    }
+    .feature-item {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        h3 {
+            font-size: 16px;
+            font-weight: bold;
+            opacity: 0.8;
+            color: #000;
+        }
+        i {
+            font-size: 30px;
+            display: block;
+            margin-bottom: 15px;
+            color: #d8d8d8;
+        }
+    }
+}
