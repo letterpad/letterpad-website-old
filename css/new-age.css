@@ -206,43 +206,47 @@ header.masthead .device-container .screen img {
   }
 }
 
-section.download {
+section.editor {
   position: relative;
   padding: 100px 0;
   background: #1f3448;
   color: #bfbfbf;
 }
 
-section.download h4 {
-  font-size: 24px;
+section.editor h4 {
+  font-size: 32px;
   margin-top: 0;
   margin-bottom: 20px;
   color: #fff;
 }
 
-section.download .badges .badge-link {
+section.editor .badges .badge-link {
   display: block;
   margin-bottom: 25px;
 }
 
-section.download .badges .badge-link:last-child {
+section.editor .badges .badge-link:last-child {
   margin-bottom: 0;
 }
 
-section.download .badges .badge-link img {
+section.editor .badges .badge-link img {
   height: 60px;
 }
 
 @media (min-width: 768px) {
-  section.download .badges .badge-link {
+  section.editor .badges .badge-link {
     display: inline-block;
     margin-bottom: 0;
   }
 }
 
-@media (min-width: 768px) {
-  section.download h4 {
-    font-size: 32px;
+@media (max-width: 768px) {
+  section.editor h4 {
+    font-size: 24px;
+    text-align: center;
+  }
+  section.editor .column {
+    margin-bottom: 40px;
   }
 }
 
@@ -265,7 +269,6 @@ section.features .section-heading p {
 
 section.features .device-container,
 section.features .feature-item {
-  max-width: 325px;
   margin: 0 auto;
 }
 
@@ -286,7 +289,7 @@ section.features .feature-item {
 
 section.features .feature-item h3 {
   font-size: 16px;
-  font-weight: bold;
+  font-weight: 500;
   opacity: 0.8;
   color: #000;
 }

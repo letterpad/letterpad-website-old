@@ -1,12 +1,12 @@
 // Styling for the download section
-section.download {
+section.editor {
     position: relative;
     padding: 100px 0;
     background: #1f3448;
     color: rgb(191, 191, 191);
 
     h4 {
-        font-size: 24px;
+        font-size: 32px;
         margin-top: 0;
         margin-bottom: 20px;
         color: #fff;
@@ -27,9 +27,13 @@ section.download {
             }
         }
     }
-    @media (min-width: 768px) {
+    @media (max-width: 768px) {
         h4 {
-            font-size: 32px;
+            font-size: 24px;
+            text-align: center;
+        }
+        .column {
+            margin-bottom: 40px;
         }
     }
 }
