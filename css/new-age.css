@@ -189,6 +189,8 @@ header.masthead .device-container {
 
 header.masthead .device-container .screen img {
   border-radius: 3px;
+  padding: 10px;
+  background: #fff;
 }
 
 @media (min-width: 992px) {
