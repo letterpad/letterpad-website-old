@@ -157,7 +157,7 @@ header.masthead {
   padding-top: 150px;
   padding-bottom: 100px;
   color: white;
-  background-image: linear-gradient(to left bottom, #051937, #00486f, #007d9c, #00b5b5, #4becba);
+  background-image: linear-gradient(to left bottom, #161a21, #222, #222, #222, #161a21);
 }
 
 header.masthead .btn-outline {
